@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+    {% for content in about_content%}
+    <h1>{{content.person}}</h1>
+    <p>{{content.stand}}</p>
+    {% endfor %}
+{% endblock content %}

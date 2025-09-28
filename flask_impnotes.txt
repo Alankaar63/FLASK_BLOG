@@ -1,0 +1,6 @@
+Block content in Flask templates lets you define sections that child templates can override.
+
+In Flask, when you use templates with Jinja (the template engine),
+you often want to avoid repeating the same HTML code in every page.
+That’s where “block content” and template inheritance come in.
+
